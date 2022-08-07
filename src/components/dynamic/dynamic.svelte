@@ -3,12 +3,10 @@
   let view: boolean = false;
   let parmameters = {};
 
-  const importPath = `../../${view ? "views" : "components"}/${name}.svelte`;
-
   export { name, parmameters as parms, view };
 </script>
 
-{#await import(importPath)}
+{#await import(`../../${(view ? "views" : "components") + "/" + name}.svelte`)}
   Loading....
 {:then { default: component }}
   <svelte:component this={component} {...parmameters}>
