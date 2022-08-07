@@ -55,6 +55,7 @@ function manualChunks(path: string) {
 
 // https://vitejs.dev/config/
 export default defineConfig(({ command, mode }) => {
+  const isProd = mode === "production";
   return {
     base: "./",
     build: {
@@ -85,9 +86,6 @@ export default defineConfig(({ command, mode }) => {
           prebundleSvelteLibraries: true,
         },
       }),
-      strip(),
-      webFont(),
-      eslint(),
       pwa({
         manifest: pwaManifest,
         registerType: "autoUpdate",
@@ -97,23 +95,30 @@ export default defineConfig(({ command, mode }) => {
           ],
         },
       }),
-      splitChunks(),
-      imagePresets({
-        optimize: widthPreset({
-          widths: [300, 500, 1000],
-          formats: {
-            webp: {
-              quality: 80,
-            },
-            avif: {
-              quality: 80,
-            },
-            png: {
-              quality: 80,
-            },
-          },
-        }),
-      }),
+      ...(isProd
+        ? [
+            strip(),
+            webFont(),
+            eslint(),
+            splitChunks(),
+            imagePresets({
+              optimize: widthPreset({
+                widths: [300, 500, 1000],
+                formats: {
+                  webp: {
+                    quality: 80,
+                  },
+                  avif: {
+                    quality: 80,
+                  },
+                  png: {
+                    quality: 80,
+                  },
+                },
+              }),
+            }),
+          ]
+        : []),
     ],
   };
 });
