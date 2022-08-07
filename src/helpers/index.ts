@@ -1,4 +1,3 @@
-import annotate from "./annotate";
-import "./routing";
+export * from "./annotate";
 
-export { annotate };
+export * from "./routing";

@@ -24,4 +24,4 @@ function annotate(element: HTMLElement, options?: AnnotateOptions) {
   };
 }
 
-export default annotate;
+export { annotate };
