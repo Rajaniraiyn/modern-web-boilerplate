@@ -1,5 +1,5 @@
 <script lang="ts">
-  import icon from "../assets/images/icon.png?optimize";
+  import icon from "../assets/images/icon.png?preset=optimize&srcset";
 
   import Title from "../components/title.svelte";
 </script>
