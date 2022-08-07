@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/Rajaniraiyn/modern-web-boilerplate/compare/v2.1.0...v2.1.1) (2022-08-07)
+
+
+### Bug Fixes
+
+* **routing:** fix routing in embeded pages ([b276710](https://github.com/Rajaniraiyn/modern-web-boilerplate/commit/b276710f19d855b481df33a0b85c92af54479b81))
+
 ## [2.1.0](https://github.com/Rajaniraiyn/modern-web-boilerplate/compare/v2.0.0...v2.1.0) (2022-08-07)
 
 
