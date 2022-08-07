@@ -2,15 +2,13 @@
 
 ## [2.1.0](https://github.com/Rajaniraiyn/modern-web-boilerplate/compare/v2.0.0...v2.1.0) (2022-08-07)
 
-
 ### Features
 
-* add 404 fallback ([59a7f29](https://github.com/Rajaniraiyn/modern-web-boilerplate/commit/59a7f299d049bf7e2fd782600d4fdad3e4662f88))
-
+- add 404 fallback ([59a7f29](https://github.com/Rajaniraiyn/modern-web-boilerplate/commit/59a7f299d049bf7e2fd782600d4fdad3e4662f88))
 
 ### Bug Fixes
 
-* fix routing in embeded pages ([90ff8e6](https://github.com/Rajaniraiyn/modern-web-boilerplate/commit/90ff8e6f1d4b792c21870dda57d25b59599f8775))
+- fix routing in embeded pages ([90ff8e6](https://github.com/Rajaniraiyn/modern-web-boilerplate/commit/90ff8e6f1d4b792c21870dda57d25b59599f8775))
 
 ## [2.0.0](https://github.com/Rajaniraiyn/modern-web-boilerplate/compare/v1.0.0...v2.0.0) (2022-08-07)
 
