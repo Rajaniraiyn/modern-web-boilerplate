@@ -5,6 +5,7 @@ import { ViteWebfontDownload as webFont } from "vite-plugin-webfont-dl";
 import eslint from "vite-plugin-eslint";
 import { type ManifestOptions, VitePWA as pwa } from "vite-plugin-pwa";
 import { splitVendorChunkPlugin as splitChunks } from "vite";
+import imagePresets, { widthPreset } from "vite-plugin-image-presets";
 
 const pwaManifest: Partial<ManifestOptions> = {
   name: "Rajaniraiyn's Base Web Boilerplate",
@@ -46,31 +47,73 @@ const pwaManifest: Partial<ManifestOptions> = {
   ],
 };
 
+function manualChunks(path: string) {
+  const name = path.split("/").at(-1).split(".").at(0);
+  if (path.includes("/views/")) return `views/${name}`;
+  else if (path.includes("/components/")) return `components/${name}`;
+}
+
 // https://vitejs.dev/config/
-export default defineConfig({
-  base: "./",
-  build: {
-    minify: "terser",
-    rollupOptions: {
-      output: {
-        compact: true,
+export default defineConfig(({ command, mode }) => {
+  return {
+    base: "./",
+    build: {
+      minify: "terser",
+      terserOptions: {
+        toplevel: true,
+        compress: {
+          unsafe: true,
+          booleans_as_integers: true,
+          drop_console: true,
+          keep_fargs: false,
+          unsafe_math: true,
+        },
+      },
+      rollupOptions: {
+        output: {
+          compact: true,
+          manualChunks: manualChunks,
+          assetFileNames: "assets/[ext]/[name]-[hash][extname]",
+        },
       },
     },
-  },
-  plugins: [
-    svelte(),
-    strip(),
-    webFont(),
-    eslint(),
-    pwa({
-      manifest: pwaManifest,
-      registerType: "autoUpdate",
-      workbox: {
-        globPatterns: [
-          "**/*.{js,css,html,ico,png,svg,jpg,jpeg,gif,webp,woff,woff2}",
-        ],
-      },
-    }),
-    splitChunks(),
-  ],
+    plugins: [
+      svelte({
+        emitCss: true,
+        experimental: {
+          useVitePreprocess: true,
+          prebundleSvelteLibraries: true,
+        },
+      }),
+      strip(),
+      webFont(),
+      eslint(),
+      pwa({
+        manifest: pwaManifest,
+        registerType: "autoUpdate",
+        workbox: {
+          globPatterns: [
+            "**/*.{js,css,html,ico,png,svg,jpg,jpeg,gif,webp,woff,woff2}",
+          ],
+        },
+      }),
+      splitChunks(),
+      imagePresets({
+        optimize: widthPreset({
+          widths: [300, 500, 1000],
+          formats: {
+            webp: {
+              quality: 80,
+            },
+            avif: {
+              quality: 80,
+            },
+            png: {
+              quality: 80,
+            },
+          },
+        }),
+      }),
+    ],
+  };
 });
