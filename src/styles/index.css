@@ -1,1 +1,15 @@
 @import "./reset.css";
+
+@import "./accent.css";
+
+:root {
+  --accent: red;
+}
+
+*,
+*::before,
+*::after {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+    helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial,
+    sans-serif;
+}
