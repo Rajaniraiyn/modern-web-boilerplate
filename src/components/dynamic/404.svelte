@@ -376,47 +376,10 @@
         />
       </g>
     </g>
-    <style>
-      @keyframes an1 {
-        0% {
-          transform: rotate(0);
-        }
-        5% {
-          transform: rotate(3deg);
-        }
-        15% {
-          transform: rotate(-2.5deg);
-        }
-        25%,
-        65% {
-          transform: rotate(2deg);
-        }
-        35%,
-        55% {
-          transform: rotate(-1.5deg);
-        }
-        45% {
-          transform: rotate(1deg);
-        }
-        75% {
-          transform: rotate(-2deg);
-        }
-        85% {
-          transform: rotate(2.5deg);
-        }
-        95% {
-          transform: rotate(-3deg);
-        }
-      }
-      #g6219 {
-        transform-origin: 85px 4px;
-        animation: an1 12s 0.5s infinite ease-out;
-      }
-    </style>
   </svg>
 
-  <p id="errorText">O-o-oh! Something broke.</p>
-  <a id="errorLink" href="/">Go Back</a>
+  <span>O-o-oh! Something broke.</span>
+  <a href="/">Go Back</a>
 </div>
 
 <style>
@@ -435,12 +398,12 @@
     max-height: 50vh;
   }
 
-  #errorText {
+  span {
     font-size: 22px;
     margin: 14px 0;
   }
 
-  #errorLink {
+  a {
     font-size: 20px;
     padding: 12px;
     border: 1px solid;
@@ -450,9 +413,46 @@
     transition: all 0.5s ease-in-out;
   }
 
-  #errorLink:hover,
-  #errorLink:active {
+  a:hover,
+  a:active {
     color: #fff;
     background: #000;
+  }
+
+  @keyframes an1 {
+    0% {
+      transform: rotate(0);
+    }
+    5% {
+      transform: rotate(3deg);
+    }
+    15% {
+      transform: rotate(-2.5deg);
+    }
+    25%,
+    65% {
+      transform: rotate(2deg);
+    }
+    35%,
+    55% {
+      transform: rotate(-1.5deg);
+    }
+    45% {
+      transform: rotate(1deg);
+    }
+    75% {
+      transform: rotate(-2deg);
+    }
+    85% {
+      transform: rotate(2.5deg);
+    }
+    95% {
+      transform: rotate(-3deg);
+    }
+  }
+
+  #g6219 {
+    transform-origin: 85px 4px;
+    animation: an1 12s 0.5s infinite ease-out;
   }
 </style>

@@ -7,6 +7,8 @@ import { type ManifestOptions, VitePWA as pwa } from "vite-plugin-pwa";
 import { splitVendorChunkPlugin as splitChunks } from "vite";
 import imagePresets, { widthPreset } from "vite-plugin-image-presets";
 
+import { resolve } from "path";
+
 const pwaManifest: Partial<ManifestOptions> = {
   name: "Rajaniraiyn's Base Web Boilerplate",
   short_name: "Web Boilerplate",
@@ -71,6 +73,10 @@ export default defineConfig(({ command, mode }) => {
         },
       },
       rollupOptions: {
+        input: {
+          main: resolve("index.html"),
+          "404": resolve("404.html"),
+        },
         output: {
           compact: true,
           manualChunks: manualChunks,
