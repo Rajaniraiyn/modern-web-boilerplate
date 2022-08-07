@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { slide } from "svelte/transition";
   import { useRegisterSW } from "virtual:pwa-register/svelte";
 
   const { offlineReady, needRefresh, updateServiceWorker } = useRegisterSW({
@@ -15,47 +16,45 @@
     needRefresh.set(false);
   }
 
-  $: toast = $offlineReady || $needRefresh;
+  $: showMsg = $offlineReady || $needRefresh;
 </script>
 
-{#if toast}
-  <div class="pwa-toast" role="alert">
-    <div class="message">
+{#if showMsg}
+  <div class="container" role="alert" transition:slide>
+    <span>
       {#if $offlineReady}
-        <span> App ready to work offline </span>
+        App ready to work offline
       {:else}
-        <span> New content available, click on reload button to update. </span>
+        New content available, click on reload button to update.
       {/if}
-    </div>
+    </span>
     {#if $needRefresh}
       <button on:click={() => updateServiceWorker(true)}> Reload </button>
     {/if}
-    <button on:click={close}> Close </button>
+    <button on:click={close}> X </button>
   </div>
 {/if}
 
 <style>
-  .pwa-toast {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    margin: 16px;
-    padding: 12px;
-    border: 1px solid #8885;
-    border-radius: 4px;
-    z-index: 1;
-    text-align: left;
-    box-shadow: 3px 4px 5px 0 #8885;
-    background-color: white;
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.5em;
+    font-size: 0.75em;
+    background-color: lightgray;
+
+    position: absolute;
+    inset: 0 0 auto 0;
   }
-  .pwa-toast .message {
-    margin-bottom: 8px;
-  }
-  .pwa-toast button {
-    border: 1px solid #8885;
-    outline: none;
-    margin-right: 5px;
-    border-radius: 2px;
-    padding: 3px 10px;
+
+  button {
+    position: absolute;
+    right: 1em;
+
+    border: none;
+    background-color: transparent;
+    font-size: 1em;
+    cursor: pointer;
   }
 </style>
