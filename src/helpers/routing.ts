@@ -1,3 +1,5 @@
 import { router } from "tinro";
 
-router.mode.hash();
+const { mode, goto, location } = router;
+
+export { mode, goto, location };
