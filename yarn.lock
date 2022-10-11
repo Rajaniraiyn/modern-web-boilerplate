@@ -1157,16 +1157,16 @@
     magic-string "^0.25.0"
     string.prototype.matchall "^4.0.6"
 
-"@sveltejs/vite-plugin-svelte@^1.0.8":
-  version "1.0.8"
-  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.8.tgz#a8ebf58d3efc7bdb9eb8692ef3d78fdc39a6baa8"
-  integrity sha512-1xkVTB4pm6zuign858FzVYE9Fdw9MQBOlxrdd85STV0NvTDmcofcRpcrK+zcIyT8SZ2dseHLu8hvDwzssF6RfA==
+"@sveltejs/vite-plugin-svelte@^1.0.9":
+  version "1.0.9"
+  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.9.tgz#b19bde0ba1929a06205888e94475595e3ac0c258"
+  integrity sha512-+SDrAnT7TDi8sdj4OfD2SC4s9DNrpNVBrue8fT2PmKks9Ddu0JIfSeX91wXZb/1xHz4EkGb+rli8GTRI0yGOjg==
   dependencies:
     "@rollup/pluginutils" "^4.2.1"
     debug "^4.3.4"
     deepmerge "^4.2.2"
     kleur "^4.1.5"
-    magic-string "^0.26.3"
+    magic-string "^0.26.5"
     svelte-hmr "^0.15.0"
 
 "@trysound/sax@0.2.0":
@@ -3203,10 +3203,10 @@ magic-string@^0.25.0, magic-string@^0.25.7:
   dependencies:
     sourcemap-codec "^1.4.8"
 
-magic-string@^0.26.0, magic-string@^0.26.3:
-  version "0.26.3"
-  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.26.3.tgz#25840b875140f7b4785ab06bddc384270b7dd452"
-  integrity sha512-u1Po0NDyFcwdg2nzHT88wSK0+Rih0N1M+Ph1Sp08k8yvFFU3KR72wryS7e1qMPJypt99WB7fIFVCA92mQrMjrg==
+magic-string@^0.26.0, magic-string@^0.26.5:
+  version "0.26.7"
+  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.26.7.tgz#caf7daf61b34e9982f8228c4527474dac8981d6f"
+  integrity sha512-hX9XH3ziStPoPhJxLq1syWuZMxbDvGNbVchfrdCtanC7D13888bMFow61x8axrx+GfHLtVeAx2kxL7tTGRl+Ow==
   dependencies:
     sourcemap-codec "^1.4.8"
 
