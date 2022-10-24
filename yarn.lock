@@ -1139,13 +1139,22 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
-"@rollup/pluginutils@^4.1.2", "@rollup/pluginutils@^4.2.1":
+"@rollup/pluginutils@^4.2.1":
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-4.2.1.tgz#e6c6c3aba0744edce3fb2074922d3776c0af2a6d"
   integrity sha512-iKnFXr7NkdZAIHiIWE+BX5ULi/ucVFYWD6TbAV+rZctiRTY2PL6tsIKhoIOaoskiWAkgu+VsbXgUVDNLHf+InQ==
   dependencies:
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
+
+"@rollup/pluginutils@^5.0.0":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-5.0.2.tgz#012b8f53c71e4f6f9cb317e311df1404f56e7a33"
+  integrity sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==
+  dependencies:
+    "@types/estree" "^1.0.0"
+    estree-walker "^2.0.2"
+    picomatch "^2.3.1"
 
 "@surma/rollup-plugin-off-main-thread@^2.2.3":
   version "2.2.3"
@@ -1207,7 +1216,7 @@
     "@types/estree" "*"
     "@types/json-schema" "*"
 
-"@types/estree@*":
+"@types/estree@*", "@types/estree@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-1.0.0.tgz#5fb2e536c1ae9bf35366eed879e827fa59ca41c2"
   integrity sha512-WulqXMDUTYAXCjZnk6JtIHPigp55cVtDgDrO2gHRwhyJto21+1zbVCtOYB2L1F9w4qCQ0rOGWBnBe0FNTiEJIQ==
@@ -2817,10 +2826,10 @@ ignore@^5.2.0:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.0.tgz#6d3bac8fa7fe0d45d9f9be7bac2fc279577e345a"
   integrity sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==
 
-imagetools-core@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/imagetools-core/-/imagetools-core-3.2.1.tgz#f4dc2b5a6c12afef17ff9455de13df51fac0708e"
-  integrity sha512-cTa1cQqGUhw1eqBpz6Jdby7aYP4d18v1hLG9j3mS/223+gx/fmRv+B/E/zDYlX7NoZ5gh4Tvft6mcxek7suE/A==
+imagetools-core@^3.2.3:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/imagetools-core/-/imagetools-core-3.2.3.tgz#407abe2f506d7ed7010b5aec7d9c08a696a1ee9d"
+  integrity sha512-YbZhedg/zja34yV6iRDhfo4cmAYSwxaErkuzc/RpMMAELgszpDKf3MLH6VlsR+QkenPUEGkGAVpJAM2GbUls9Q==
   dependencies:
     sharp "^0.31.0"
 
@@ -3238,7 +3247,7 @@ magic-string@^0.25.0, magic-string@^0.25.7:
   dependencies:
     sourcemap-codec "^1.4.8"
 
-magic-string@^0.26.0, magic-string@^0.26.4, magic-string@^0.26.5:
+magic-string@^0.26.4, magic-string@^0.26.5:
   version "0.26.7"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.26.7.tgz#caf7daf61b34e9982f8228c4527474dac8981d6f"
   integrity sha512-hX9XH3ziStPoPhJxLq1syWuZMxbDvGNbVchfrdCtanC7D13888bMFow61x8axrx+GfHLtVeAx2kxL7tTGRl+Ow==
@@ -4651,14 +4660,13 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-vite-imagetools@^4.0.9:
-  version "4.0.9"
-  resolved "https://registry.yarnpkg.com/vite-imagetools/-/vite-imagetools-4.0.9.tgz#434769dbc260134b4a8e68cbf5d87b926859c8fc"
-  integrity sha512-MQZWqYH/dbliA1IC7jiARgzpn+NCT3LEGgmln+IIj2WJiVX/Ry+KgmJoIK1OvA6tUsGXNpQSLhAqBQKRA9NuGQ==
+vite-imagetools@^4.0.11:
+  version "4.0.11"
+  resolved "https://registry.yarnpkg.com/vite-imagetools/-/vite-imagetools-4.0.11.tgz#ffc376bb47575dc0ccb2e0a46de6c7e860995ffb"
+  integrity sha512-S6+vzsd/6kSBdPIdjJFGeZ4+UV/aIK09V7oLb/Z9soV3jNwKh60WBi6jF+RnKtY7F9FMU3W6xPbln+VPHI0icA==
   dependencies:
-    "@rollup/pluginutils" "^4.1.2"
-    imagetools-core "^3.2.1"
-    magic-string "^0.26.0"
+    "@rollup/pluginutils" "^5.0.0"
+    imagetools-core "^3.2.3"
 
 vite-plugin-eslint@^1.8.1:
   version "1.8.1"
