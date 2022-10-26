@@ -1,7 +1,7 @@
 <div align=center >
 
 # Modern Web Boilerplate
-  
+
 </div>
 
 ## What is this project for?
@@ -11,4 +11,4 @@ This can be used to create any web development project with all the features or 
 
 ## How to get most out of this project?
 
-This project's [`README`](README.md) is properly structured in a way that everything is linked to their external refernces for further learning along with a precise brief outline. Anyone can get a quick brief overview from the outline. Everyone must go though the provied refernces to get most out of this project.
+This project's [`README`](README.md) is properly structured in a way that everything is linked to their external references for further learning along with a precise brief outline. Anyone can get a quick brief overview from the outline. Everyone must go though the provied references to get most out of this project.
