@@ -2844,13 +2844,6 @@ ignore@^5.2.0:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.0.tgz#6d3bac8fa7fe0d45d9f9be7bac2fc279577e345a"
   integrity sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==
 
-imagetools-core@^3.2.3:
-  version "3.2.3"
-  resolved "https://registry.yarnpkg.com/imagetools-core/-/imagetools-core-3.2.3.tgz#407abe2f506d7ed7010b5aec7d9c08a696a1ee9d"
-  integrity sha512-YbZhedg/zja34yV6iRDhfo4cmAYSwxaErkuzc/RpMMAELgszpDKf3MLH6VlsR+QkenPUEGkGAVpJAM2GbUls9Q==
-  dependencies:
-    sharp "^0.31.0"
-
 import-fresh@^3.0.0, import-fresh@^3.2.1:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/import-fresh/-/import-fresh-3.3.0.tgz#37162c25fcb9ebaa2e6e53d5b4d88ce17d9e0c2b"
@@ -4173,20 +4166,6 @@ sharp@^0.30.5:
     tar-fs "^2.1.1"
     tunnel-agent "^0.6.0"
 
-sharp@^0.31.0:
-  version "0.31.0"
-  resolved "https://registry.yarnpkg.com/sharp/-/sharp-0.31.0.tgz#ce9b5202a5667486721cf07fd5b52360b1c2275a"
-  integrity sha512-ft96f8WzGxavg0rkLpMw90MTPMUZDyf0tHjPPh8Ob59xt6KzX8EqtotcqZGUm7kwqpX2pmYiyYX2LL0IZ/FDEw==
-  dependencies:
-    color "^4.2.3"
-    detect-libc "^2.0.1"
-    node-addon-api "^5.0.0"
-    prebuild-install "^7.1.1"
-    semver "^7.3.7"
-    simple-get "^4.0.1"
-    tar-fs "^2.1.1"
-    tunnel-agent "^0.6.0"
-
 shebang-command@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/shebang-command/-/shebang-command-2.0.0.tgz#ccd0af4f8835fbdc265b82461aaf0c36663f34ea"
@@ -4683,13 +4662,12 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-vite-imagetools@^4.0.11:
-  version "4.0.11"
-  resolved "https://registry.yarnpkg.com/vite-imagetools/-/vite-imagetools-4.0.11.tgz#ffc376bb47575dc0ccb2e0a46de6c7e860995ffb"
-  integrity sha512-S6+vzsd/6kSBdPIdjJFGeZ4+UV/aIK09V7oLb/Z9soV3jNwKh60WBi6jF+RnKtY7F9FMU3W6xPbln+VPHI0icA==
+vite-imagetools@^4.0.12:
+  version "4.0.12"
+  resolved "https://registry.yarnpkg.com/vite-imagetools/-/vite-imagetools-4.0.12.tgz#cf76eaa6d1641551e9b55ad22148625140f2ceb5"
+  integrity sha512-zdh38mbVisv+8xpD00MRblaXqq/PZXCQi4HqOZILlEO78HxXAoB36KoytmcFqhX9G5BTV2j4LJnRTgebhPaGmg==
   dependencies:
     "@rollup/pluginutils" "^5.0.0"
-    imagetools-core "^3.2.3"
 
 vite-plugin-eslint@^1.8.1:
   version "1.8.1"
