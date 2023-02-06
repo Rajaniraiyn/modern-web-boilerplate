@@ -4753,10 +4753,10 @@ vite-plugin-eslint@^1.8.1:
     "@types/eslint" "^8.4.5"
     rollup "^2.77.2"
 
-vite-plugin-image-presets@^0.3.3:
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/vite-plugin-image-presets/-/vite-plugin-image-presets-0.3.3.tgz#727b8202a3a5a27548fd7cfeccc4f59c56ab5a90"
-  integrity sha512-Ne3Q08tOpql4gX9aCFVeNTuKIXs+TblOG3Kr+rT27VMyJBP27kuHjrrAbrW8c7B6JjXSVxwMHad4ZL+jVBumig==
+vite-plugin-image-presets@^0.3.4:
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/vite-plugin-image-presets/-/vite-plugin-image-presets-0.3.4.tgz#590119a6d5b54acde97fa4aff341fc4891dc0901"
+  integrity sha512-jVMMY7iuzDCRNUgPKo5oMZ5QPeJA5bou6i+38SmGxW5zrqkRI3QBDGNnUqIUg/nhz7J1fQji1SagGjgiiKfW6w==
   dependencies:
     "@nuxt/devalue" "^2.0"
     debug "^4.3"
