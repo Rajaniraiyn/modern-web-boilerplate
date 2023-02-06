@@ -37,7 +37,7 @@
     "svelte-preprocess": "^5.0.1",
     "terser": "^5.16.2",
     "tslib": "^2.5.0",
-    "typescript": "^4.9.4",
+    "typescript": "^4.9.5",
     "vite": "^3.2.4",
     "vite-imagetools": "^4.0.16",
     "vite-plugin-eslint": "^1.8.1",
