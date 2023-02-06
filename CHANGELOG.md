@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.1.0](https://github.com/Rajaniraiyn/modern-web-boilerplate/compare/v2.0.0...v2.1.0) (2023-02-06)
+
+
+### Features
+
+* add 404 fallback ([59a7f29](https://github.com/Rajaniraiyn/modern-web-boilerplate/commit/59a7f299d049bf7e2fd782600d4fdad3e4662f88))
+* add accent color support ([907407b](https://github.com/Rajaniraiyn/modern-web-boilerplate/commit/907407bef3fbb6c2aaa5b15f06c45592e3fbe329))
+* add GitHub compatible 404 error page ([37dd3fa](https://github.com/Rajaniraiyn/modern-web-boilerplate/commit/37dd3fa8535d796bcec9b1c31a0fd4a11f5fcd8f))
+* **dynamic.svelte:** add CSS loader to loading state in dynamic components ([6f6ebc6](https://github.com/Rajaniraiyn/modern-web-boilerplate/commit/6f6ebc6bf3c3acd19271d35b1c44dbe2daf6baec))
+
+
+### Bug Fixes
+
+* fix routing in embeded pages ([90ff8e6](https://github.com/Rajaniraiyn/modern-web-boilerplate/commit/90ff8e6f1d4b792c21870dda57d25b59599f8775))
+* **routing:** fix routing in embeded pages ([b276710](https://github.com/Rajaniraiyn/modern-web-boilerplate/commit/b276710f19d855b481df33a0b85c92af54479b81))
+
 ## [2.0.0](https://github.com/Rajaniraiyn/modern-web-boilerplate/compare/v1.0.0...v2.0.0) (2023-01-31)
 
 
