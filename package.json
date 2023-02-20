@@ -21,7 +21,7 @@
     "@typescript-eslint/parser": "^5.52.0",
     "autoprefixer": "^10.4.13",
     "cssnano": "^5.1.14",
-    "cssnano-preset-advanced": "^5.3.9",
+    "cssnano-preset-advanced": "^5.3.10",
     "cz-conventional-changelog": "3.3.0",
     "eslint": "^8.34.0",
     "eslint-config-prettier": "^8.6.0",
