@@ -17,7 +17,7 @@
     "@rollup/plugin-strip": "^3.0.2",
     "@sveltejs/vite-plugin-svelte": "^1.4.0",
     "@tsconfig/svelte": "^3.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
     "@typescript-eslint/parser": "^5.52.0",
     "autoprefixer": "^10.4.13",
     "cssnano": "^5.1.15",
