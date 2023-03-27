@@ -16,7 +16,7 @@
   "devDependencies": {
     "@rollup/plugin-strip": "^3.0.2",
     "@sveltejs/vite-plugin-svelte": "^1.4.0",
-    "@tsconfig/svelte": "^3.0.0",
+    "@tsconfig/svelte": "^4.0.0",
     "@typescript-eslint/eslint-plugin": "^5.55.0",
     "@typescript-eslint/parser": "^5.55.0",
     "autoprefixer": "^10.4.14",
