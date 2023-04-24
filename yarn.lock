@@ -4734,10 +4734,10 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-vite-imagetools@^4.0.18:
-  version "4.0.18"
-  resolved "https://registry.yarnpkg.com/vite-imagetools/-/vite-imagetools-4.0.18.tgz#ff8c86c0791e5c9d151c85d8af3c54cf3f07030d"
-  integrity sha512-PpvOy7eDQadfuJNarwPU9X8nK0AjtRsyxhfMjqg/wrAyssNgeaZWMGlWQK/U3YhV9+wpdV5Mep8FZvGa31IY1Q==
+vite-imagetools@^4.0.19:
+  version "4.0.19"
+  resolved "https://registry.yarnpkg.com/vite-imagetools/-/vite-imagetools-4.0.19.tgz#658f422edaf8427013ec7a0d6a3ac0ef6f9802aa"
+  integrity sha512-vZaPsjLDgEqZrbj+ZsniRKthmoj4mvVrMOK/FZhRAbrVB4LOsil0BO2Gcq20e/JRlom4DzqtLw1UQUkfcqgCrA==
   dependencies:
     "@rollup/pluginutils" "^5.0.0"
     imagetools-core "^3.3.1"
