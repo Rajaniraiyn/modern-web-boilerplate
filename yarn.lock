@@ -1937,19 +1937,19 @@ cssesc@^3.0.0:
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
 
-cssnano-preset-advanced@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/cssnano-preset-advanced/-/cssnano-preset-advanced-6.0.0.tgz#8714f908f5a6ee07042a181f13bd4182583874cc"
-  integrity sha512-OasX46ANVy93yaMVgxGk1PoPzrzrgXxX6C8b3Pr6LE3oVyCsyh1Oywm7xxSkZfbGzNp6M/+4OmzP5xtAf21IMw==
+cssnano-preset-advanced@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/cssnano-preset-advanced/-/cssnano-preset-advanced-6.0.1.tgz#cfd3cf2922b6ca7f91c40f6a32daff4c020ef91b"
+  integrity sha512-z50X9tDqiZx0Cv+vi3/IRe+5ca1lLLvoG67PjwWdC6gXNqc7JXbU/hWEfYQg+e9/8cq+fVKhyLHO8n3mV7mxDw==
   dependencies:
     autoprefixer "^10.4.12"
-    cssnano-preset-default "^6.0.0"
+    cssnano-preset-default "^6.0.1"
     postcss-discard-unused "^6.0.0"
     postcss-merge-idents "^6.0.0"
-    postcss-reduce-idents "^6.0.0"
+    postcss-reduce-idents "^6.0.1"
     postcss-zindex "^6.0.0"
 
-cssnano-preset-default@^6.0.0, cssnano-preset-default@^6.0.1:
+cssnano-preset-default@^6.0.1:
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/cssnano-preset-default/-/cssnano-preset-default-6.0.1.tgz#2a93247140d214ddb9f46bc6a3562fa9177fe301"
   integrity sha512-7VzyFZ5zEB1+l1nToKyrRkuaJIx0zi/1npjvZfbBwbtNTzhLtlvYraK/7/uqmX2Wb2aQtd983uuGw79jAjLSuQ==
@@ -3815,10 +3815,10 @@ postcss-ordered-values@^6.0.0:
     cssnano-utils "^4.0.0"
     postcss-value-parser "^4.2.0"
 
-postcss-reduce-idents@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-reduce-idents/-/postcss-reduce-idents-6.0.0.tgz#2cdff9561f5590a8754b9689398f839a53eb2c98"
-  integrity sha512-Dw/+s0J3Ie+jXE4QKdgcf8mswuQ8/KaVzKmC925B1tCn6uW8iQ2T2CBKtPN5vAKnVsNMrMsREe/7gaIwi91hJw==
+postcss-reduce-idents@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-reduce-idents/-/postcss-reduce-idents-6.0.1.tgz#0beca54eba8bc5a411689955c01812afb0977c26"
+  integrity sha512-KniPTynD5u69rLwcS6++OMBQg2TsH59Z8SX01rqs4LFhcU9A3IqjZ1ax41MiYfqCotseBmo01+hzO+Bqrcd1Og==
   dependencies:
     postcss-value-parser "^4.2.0"
 
