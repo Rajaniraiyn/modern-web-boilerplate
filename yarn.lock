@@ -1138,14 +1138,6 @@
     "@rollup/pluginutils" "^3.1.0"
     magic-string "^0.25.7"
 
-"@rollup/plugin-replace@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-replace/-/plugin-replace-5.0.1.tgz#49a57af3e6df111a9e75dea3f3572741f4c5c83e"
-  integrity sha512-Z3MfsJ4CK17BfGrZgvrcp/l6WXoKb0kokULO+zt/7bmcyayokDaQ2K3eDJcRLCTAlp5FPI4/gz9MHAsosz4Rag==
-  dependencies:
-    "@rollup/pluginutils" "^5.0.1"
-    magic-string "^0.26.4"
-
 "@rollup/plugin-strip@^3.0.2":
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-strip/-/plugin-strip-3.0.2.tgz#49018633e713df4488f056d2454bba2682314799"
@@ -3271,7 +3263,7 @@ magic-string@^0.25.0, magic-string@^0.25.7:
   dependencies:
     sourcemap-codec "^1.4.8"
 
-magic-string@^0.26.4, magic-string@^0.26.7:
+magic-string@^0.26.7:
   version "0.26.7"
   resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.26.7.tgz#caf7daf61b34e9982f8228c4527474dac8981d6f"
   integrity sha512-hX9XH3ziStPoPhJxLq1syWuZMxbDvGNbVchfrdCtanC7D13888bMFow61x8axrx+GfHLtVeAx2kxL7tTGRl+Ow==
@@ -4104,13 +4096,6 @@ rollup@^2.43.1, rollup@^2.77.2, rollup@^2.79.1:
   optionalDependencies:
     fsevents "~2.3.2"
 
-rollup@^3.7.2:
-  version "3.7.3"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-3.7.3.tgz#d440adff5f89099fd1f552e4e4333045e3bc71d4"
-  integrity sha512-7e68MQbAWCX6mI4/0lG1WHd+NdNAlVamg0Zkd+8LZ/oXojligdGnCNyHlzXqXCZObyjs5FRc3AH0b17iJESGIQ==
-  optionalDependencies:
-    fsevents "~2.3.2"
-
 rough-notation@^0.5.1:
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/rough-notation/-/rough-notation-0.5.1.tgz#32abbb16b973fb00fba83ab96b18704e98620e95"
@@ -4747,16 +4732,14 @@ vite-plugin-image-presets@^0.3.4:
     pathe "^0.2"
     sharp "^0.30.5"
 
-vite-plugin-pwa@^0.14.7:
-  version "0.14.7"
-  resolved "https://registry.yarnpkg.com/vite-plugin-pwa/-/vite-plugin-pwa-0.14.7.tgz#56844ff767d54256f45f49f91bfdff9dd1ea7685"
-  integrity sha512-dNJaf0fYOWncmjxv9HiSa2xrSjipjff7IkYE5oIUJ2x5HKu3cXgA8LRgzOwTc5MhwyFYRSU0xyN0Phbx3NsQYw==
+vite-plugin-pwa@^0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/vite-plugin-pwa/-/vite-plugin-pwa-0.15.0.tgz#4e1b87097e97e77e4e4d92743d80606c0345dbcd"
+  integrity sha512-gpmx3BeubsRIXRBkjPToOTJbo8fknNmZFQs24i0TPZyaNVa0n27YHDo0Y72amnO70WvHKGE3e1fn8SYUP7e8SA==
   dependencies:
-    "@rollup/plugin-replace" "^5.0.1"
     debug "^4.3.4"
     fast-glob "^3.2.12"
     pretty-bytes "^6.0.0"
-    rollup "^3.7.2"
     workbox-build "^6.5.4"
     workbox-window "^6.5.4"
 
