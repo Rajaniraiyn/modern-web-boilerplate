@@ -43,7 +43,7 @@
     "vite-plugin-eslint": "^1.8.1",
     "vite-plugin-image-presets": "^0.3.4",
     "vite-plugin-pwa": "^0.16.4",
-    "vite-plugin-webfont-dl": "^3.7.4"
+    "vite-plugin-webfont-dl": "^3.7.6"
   },
   "dependencies": {
     "rough-notation": "^0.5.1",
