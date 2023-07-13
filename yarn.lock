@@ -3840,10 +3840,10 @@ postcss-zindex@^6.0.0:
   resolved "https://registry.yarnpkg.com/postcss-zindex/-/postcss-zindex-6.0.0.tgz#fc38021b9e9cb0b091497bc23f9ff32e7088308e"
   integrity sha512-lNim6f01ClwALn0J50yyoR+qOu10GXub+xucEB7+x8VwXl+iNJSj/QgXg45XpSoLsWD5HIofVrG/pPrMFcdbig==
 
-postcss@^8.4.18, postcss@^8.4.24:
-  version "8.4.24"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.24.tgz#f714dba9b2284be3cc07dbd2fc57ee4dc972d2df"
-  integrity sha512-M0RzbcI0sO/XJNucsGjvWU9ERWxb/ytp1w6dKtxTKgixdtQDq4rmx/g8W1hnaheq9jgwL/oyEdH5Bc4WwJKMqg==
+postcss@^8.4.18, postcss@^8.4.25:
+  version "8.4.25"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.25.tgz#4a133f5e379eda7f61e906c3b1aaa9b81292726f"
+  integrity sha512-7taJ/8t2av0Z+sQEvNzCkpDynl0tX3uJMCODi6nT3PfASC7dYCWV9aQ+uiCf+KBD4SEFcu+GvJdGdwzQ6OSjCw==
   dependencies:
     nanoid "^3.3.6"
     picocolors "^1.0.0"
