@@ -39,7 +39,7 @@
     "tslib": "^2.6.0",
     "typescript": "^5.1.6",
     "vite": "^3.2.7",
-    "vite-imagetools": "^5.0.5",
+    "vite-imagetools": "^5.0.6",
     "vite-plugin-eslint": "^1.8.1",
     "vite-plugin-image-presets": "^0.3.4",
     "vite-plugin-pwa": "^0.16.4",
