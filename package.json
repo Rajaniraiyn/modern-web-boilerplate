@@ -42,7 +42,7 @@
     "vite-imagetools": "^6.0.0",
     "vite-plugin-eslint": "^1.8.1",
     "vite-plugin-image-presets": "^0.3.4",
-    "vite-plugin-pwa": "^0.16.5",
+    "vite-plugin-pwa": "^0.16.6",
     "vite-plugin-webfont-dl": "^3.7.6"
   },
   "dependencies": {
