@@ -2952,10 +2952,10 @@ ignore@^5.2.0:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.2.0.tgz#6d3bac8fa7fe0d45d9f9be7bac2fc279577e345a"
   integrity sha512-CmxgYGiEPCLhfLnpPp1MoRmifwEIOgjcHXxOBjv7mY96c+eWScsOP9c112ZyLdWHi0FxHjI+4uVhKYp/gcdRmQ==
 
-imagetools-core@^5.1.1:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/imagetools-core/-/imagetools-core-5.1.1.tgz#636591f50119c5c2d60f9bd17ddcf9dd6a76db8c"
-  integrity sha512-NragdIrgxecFO8nRKy8uAYvDxe0QLEW5ToMEviAoNXpEnDQ6I4vs+npRa+z5fNB5nIku+jr11L+MuSkk7XzsKw==
+imagetools-core@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/imagetools-core/-/imagetools-core-6.0.0.tgz#88e31ba4b2f26f0dc3db0f2f28e8186484abffec"
+  integrity sha512-oH6Rng1AJSwaJnQ0nJBKvEPyz0u5tXHy4dN0ujvf7hMljVBh/Dp/qoDU1gGR26eR13VgyVKiy8XzXEBCwgHtCw==
   dependencies:
     sharp "^0.32.4"
 
@@ -4846,13 +4846,13 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-vite-imagetools@^6.2.3:
-  version "6.2.3"
-  resolved "https://registry.yarnpkg.com/vite-imagetools/-/vite-imagetools-6.2.3.tgz#b413f399f826a8e4133ae311cef00ea232fd77b8"
-  integrity sha512-VZTJOXDTw/Nfah2ayQCWEvNc0b2Q7uGSUCczjx0N7ULd7VZDFH3PxcqyKIRxFOenKcSTYTna1OMzdGlcRBTk+g==
+vite-imagetools@^6.2.4:
+  version "6.2.4"
+  resolved "https://registry.yarnpkg.com/vite-imagetools/-/vite-imagetools-6.2.4.tgz#1c73d700af625ec5f2bfe7f5d9f069cbf6139e32"
+  integrity sha512-ZeWDekJPb+N7WvdmyEcyvs9uLjjhjcQt7pO5LZrKcUan0V6+XizLJ/J1h4nSHduAb8+xpzfl7tPyf9rkk3ujBA==
   dependencies:
     "@rollup/pluginutils" "^5.0.2"
-    imagetools-core "^5.1.1"
+    imagetools-core "^6.0.0"
 
 vite-plugin-eslint@^1.8.1:
   version "1.8.1"
